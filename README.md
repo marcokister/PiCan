@@ -59,10 +59,26 @@ So yeah: Don’t just build it. Own it. ⚡️
 
 ---
 
+### 🧠 Working principle ###
+
+The operation of an SG90 servo is based on a PWM signal with 50 Hz, meaning the servo receives a control pulse every 20 ms via the data line from the Raspberry Pi.
+Depending on the pulse width (duration of the HIGH signal), the servo moves from its initial position (0°) to its maximum deflection (typically around 160–180°).
+
+- A pulse width of approximately 1 ms corresponds to 0°,
+- while a pulse width of around 2 ms corresponds to 180°.
+- Due to mechanical design limits, many servos do not reach the full 180° range and instead stop at about 160°.
+
+Since each servo can vary slightly, the exact timing values should be determined experimentally, by carefully testing and adjusting the pulse width until the movement range fits correctly.
+
+---
+
 **Voltage divider:**  
 Use 1 kΩ (top) + 2 kΩ (bottom) resistors on the ECHO line to safely reduce 5 V to ~3.3 V.
 Don´t foget it! The Raspberry Port or SOC will damage - not instead but after a longer time!!!
 ---
+
+
+
 
 ### 💻 Software Setup
 
@@ -138,6 +154,15 @@ Hintergrund ist, dass die GPIO Pins 3.3 V ausgeben und auch maximal 3.3 V als Ei
 - Der Ultraschallsensor misst fortlaufend den Abstand.
 - Wenn sich ein Objekt (z. B. eine Hand) innerhalb des definierten Abstands befindet, aktiviert der Pi den Servo.
 - Der Deckel öffnet sich automatisch und schließt sich nach kurzer Zeit wieder.
+
+Die Funktionsweise eines Servo SG90 basiert auf einem PWM-Signal mit 50 Hz, das heißt, der Servo erhält alle 20 ms ein Steuersignal über das Datenkabel vom Raspberry Pi.
+Je nach Pulsbreite (Dauer des HIGH-Signals) bewegt sich der Servo ausgehend von seiner Grundposition (0°) bis zu seiner maximalen Auslenkung (typisch etwa 160–180°).
+
+- Eine Pulsbreite von ca. 1 ms entspricht dabei der 0°-Position,
+- eine Pulsbreite von ca. 2 ms etwa 180°.
+- Bauartbedingt erreichen viele Servos den vollen Bereich jedoch nicht vollständig und enden oft schon bei rund 160°.
+
+Da jeder Servo leichte Abweichungen aufweist, sollte man die genauen Werte experimentell ermitteln und sich durch vorsichtiges Testen an die passenden Signalzeiten herantasten.
 
 ---
 
