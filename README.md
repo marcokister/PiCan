@@ -39,6 +39,13 @@ So yeah: Don’t just build it. Own it. ⚡️
 
 ---
 
+### Software Code Files ###
+
+You will find several .py files in my GitHub.
+main.py is the ready to go code for the piCan it combines the ulrasonic sensor and servo
+For better understanding you can play around with the servo .py files
+
+
 ### 🧰 Hardware Requirements
 - Raspberry Pi (any model with GPIO) **recommended Raspberry PI 3b or better**
 - HC-SR04 ultrasonic distance sensor
@@ -123,6 +130,12 @@ Also: Nicht nur nachbauen – kapieren und abliefern! 💪
 - schnelle Servo-Bewegung
 - Einfacher Python-Code, ideal für Lernzwecke und eigene Erweiterungen
 - Funktioniert auf allen Raspberry-Pi-Modellen (ich empfehle den 3B und höher ;-) )
+
+### Code Dateien ###
+
+Ich habe dir in meinem GitHub Projekt mehrere .py Dateien zur Verfügung gestellt.
+In der main.py findest du den fertigen kombinierten Python Code für den Servo und Distanz-Sensor.
+Mit den anden servo Python Dateien kannst du die Funktion lernen und rumspielen.
 
 ---
 
