@@ -4,7 +4,7 @@
 
 ![Picture complete bin](Images/bin_complete_V2.png)
 
-
+![all 3D objects on the plate](Images/bin_3d_print_plate.png)
 
 ---
 
