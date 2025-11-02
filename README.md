@@ -2,7 +2,7 @@
 
 # 🇬🇧 **This Description starts in English — Deutsche Version weiter unten ** 🇩🇪 #
 
-![Picture complete bin](Images/bin_complete_V2.png)
+![Photo of the complete bin](Images/bin_photo.jpg)
 
 ![all 3D objects on the plate](Images/bin_3d_print_plate.png)
 
