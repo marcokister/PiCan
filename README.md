@@ -68,7 +68,7 @@ Normally the needed modul python3-rpi.gpio is already pre-installed on every ras
 
 ---
 
-### 💻 Author###
+### 💻 Author ###
 
 Marco Kister
 IT Trainer & Maker
@@ -79,7 +79,7 @@ hallo@marco_itech.de
 --------
 --------
 
-## 🇩🇪 Deutsche Version 🇩🇪##
+## 🇩🇪 Deutsche Version 🇩🇪 ##
 
 PiCan verwandelt jeden Mülleimer in einen intelligenten, berührungslosen Abfalleimer auf Basis eines Raspberry Pi.
 Ein HC-SR04-Ultraschallsensor und ein Servomotor öffnen automatisch den Deckel, sobald sich eine Hand nähert – und schließen ihn nach einer von euch einstellbaren Zeit wieder.
@@ -148,7 +148,7 @@ Ideal für:
 
 ---
 
-### 💻 Author###
+### 💻 Author ###
 
 Marco Kister
 IT Trainer & Maker
