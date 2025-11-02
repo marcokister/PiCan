@@ -6,6 +6,10 @@
 
 ![all 3D objects on the plate](Images/bin_3d_print_plate.png)
 
+[🎥 Watch the demo on YouTube](https://youtube.com/shorts/SnMpfTM29FU)
+
+
+
 ---
 
 ## 🇬🇧 English Description
