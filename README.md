@@ -81,7 +81,7 @@ hallo@marco_itech.de
 --------
 --------
 
-## 🇩🇪 Deutsche Version 🇩🇪 ##
+## 🇩🇪 Deutsche Beschreibung 🇩🇪 ##
 
 PiCan verwandelt jeden Mülleimer in einen intelligenten, berührungslosen Abfalleimer auf Basis eines Raspberry Pi.
 Ein HC-SR04-Ultraschallsensor und ein Servomotor öffnen automatisch den Deckel, sobald sich eine Hand nähert – und schließen ihn nach einer von euch einstellbaren Zeit wieder.
