@@ -1,8 +1,10 @@
 # 🥫 PiCan – Touchless Smart Trash Can with Raspberry Pi
 
+# 🇬🇧 **This Description starts in English — Deutsche Version weiter unten ** 🇩🇪 #
+
 ![Picture complete bin](Images/bin_complete_V2.png)
 
-> 🇬🇧 **This Description starts in English — Deutsche Version weiter unten 🇩🇪**
+
 
 ---
 
